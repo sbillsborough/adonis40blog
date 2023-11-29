@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Adonis fullstack application
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
@@ -29,3 +30,6 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+=======
+# adonis40blog
+>>>>>>> 3fc4d8ec7d2ce0cc436e5a11d443fb544288a7d5
