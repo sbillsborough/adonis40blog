@@ -17,3 +17,5 @@
 const Route = use("Route");
 
 Route.on("/").render("home");
+
+Route.get("/test", () => "Hello World!");
