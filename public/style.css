@@ -18,6 +18,22 @@ body {
   padding: 0;
 }
 
+nav {
+  color: #fff;
+  width: 1312px;
+}
+
+nav ul {
+  width: 1312px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
 section {
   height: 100%;
   display: flex;
