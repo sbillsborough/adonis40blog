@@ -21,7 +21,11 @@ Route.on("/").render("home");
 // standard route
 // Route.get("/test", () => "Hello World!");
 
-// // If you want parameters in your url, localhost:3333/test/1 2 3 etc
+// Route.get("/test2", function () {
+//   return "Hello there!";
+// });
+
+// //If you want parameters in your url, localhost:3333/test/1 2 3 etc
 // Route.get("/test/:id", function ({ params }) {
 //   return `This is the id ${params.id}`;
 // });
