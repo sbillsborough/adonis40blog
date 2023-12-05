@@ -18,7 +18,7 @@ const Route = use("Route");
 
 Route.on("/").render("home");
 
-Route.on("/contact").render("contact");
+// Route.on("/contact").render("contact");
 
 // standard route
 // Route.get("/test", () => "Hello World!");
