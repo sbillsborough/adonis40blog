@@ -1,6 +1,9 @@
-'use strict'
+"use strict";
 
 class PostController {
+  async index() {
+    return "Posts";
+  }
 }
 
-module.exports = PostController
+module.exports = PostController;

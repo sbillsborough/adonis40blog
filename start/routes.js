@@ -18,6 +18,8 @@ const Route = use("Route");
 
 Route.on("/").render("home");
 
+Route.get("/posts", "PostController.index");
+
 // Route.on("/contact").render("contact");
 
 // standard route
