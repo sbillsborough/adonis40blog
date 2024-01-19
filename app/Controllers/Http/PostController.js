@@ -1,5 +1,8 @@
 "use strict";
 
+// Bring in model
+const Post = use("App/Models/Post");
+
 class PostController {
   async index({ view }) {
     const posts = [
