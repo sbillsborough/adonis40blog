@@ -18,6 +18,8 @@ class PostController {
       posts: posts.toJSON(),
     });
   }
+
+  async details({ params, view }) {}
 }
 
 module.exports = PostController;
