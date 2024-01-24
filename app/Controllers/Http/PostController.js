@@ -19,7 +19,9 @@ class PostController {
     });
   }
 
-  async details({ params, view }) {}
+  async details({ params, view }) {
+    const post = await Post.find(params.id);
+  }
 }
 
 module.exports = PostController;
