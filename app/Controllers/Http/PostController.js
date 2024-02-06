@@ -21,6 +21,10 @@ class PostController {
 
   async details({ params, view }) {
     const post = await Post.find(params.id);
+
+    return view.render("post.details", {
+      post: post,
+    });
   }
 }
 
